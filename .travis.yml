@@ -3,7 +3,7 @@ dist: bionic
 language: c
 os: linux
 compiler:
-- gcc
+- gcc-4.8.5
 script:
 - ./bootstrap.sh
 - ./configure
