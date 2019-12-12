@@ -1,4 +1,4 @@
-sudo: true
+sudo: required
 dist: bionic
 language: c
 os: linux
