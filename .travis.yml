@@ -4,8 +4,9 @@ language: c
 os: linux
 compiler:
 - gcc-4.8
-script:
+install:
 - apt install gcc-4.8
+script:
 - ./bootstrap.sh
 - ./configure
 - make
