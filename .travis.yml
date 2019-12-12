@@ -2,6 +2,10 @@
 dist: bionic
 language: c
 os: linux
+  addons:
+    apt:
+      packages:
+      - gcc-4.8
 compiler:
 - gcc-4.8
 script:
