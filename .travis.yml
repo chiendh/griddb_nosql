@@ -5,7 +5,7 @@ os: linux
 compiler:
 - gcc-4.8
 install:
-- sudo apt install gcc-4.8
+- sudo apt-get install gcc-4.8
 script:
 - ./bootstrap.sh
 - ./configure
