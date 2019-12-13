@@ -1,8 +1,7 @@
 sudo: required
 dist: bionic
 language: c++
-env:
-- OS_TYPE=centos OS_VERSION=7
+os: linux
 compiler:
 - g++-4.8
 before_install:
