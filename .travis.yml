@@ -8,6 +8,7 @@ before_install:
 - sudo apt-get update
 - sudo apt-get -y install libxml2-dev
 install:
+- make get-deps
 - sudo apt-get install gcc-4.8
 - sudo apt-get install g++-4.8
 script:
