@@ -14,6 +14,8 @@ script:
 - export TRAVIS_COMPILER=gcc-4.8
 - export CC=${CC:-gcc-4.8}
 - export CC_FOR_BUILD=${CC_FOR_BUILD:-gcc-4.8}
+- export CXX=${CXX:-g++-4.8}
+- export CXX_FOR_BUILD=${CXX_FOR_BUILD:-g++-4.8}
 - ./bootstrap.sh
 - ./configure
 - make
